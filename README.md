@@ -26,7 +26,9 @@ The second requirement is to run linear regression on each relationship. This ti
 A CSV of all retrieved data and a PNG image for each scatter plot is in the WeatherPy/output_data folder.
 
 #### Trends Observed in Part I
-
+  There is a strong correlation between a city's latitude and the maximum temperature. It is generally hotter as latitude approaches zero from either direction.
+  There is no clear correlation between a city's latitude and the percentage of cloudiness or wind speed.
+  It is hard to tell from the scatter plots if there is much correlation between a city's latitude and its humidity. 
 
 
 ## Part II - VacationPy
@@ -48,5 +50,3 @@ The list of all cities is narrowed down to find my ideal weather condition. For 
 * The hotels were plotted on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
 * A screenshot of the final heatmap is included in the VacationPy folder.
-
-#### Trends Observed in Part II
