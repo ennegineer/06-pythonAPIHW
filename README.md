@@ -24,3 +24,29 @@ The second requirement is to run linear regression on each relationship. This ti
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
 A CSV of all retrieved data and a PNG image for each scatter plot is in the WeatherPy/output_data folder.
+
+#### Trends Observed in Part I
+
+
+
+## Part II - VacationPy
+
+Now let's parse the weather data to plan potential future vacations. The Google Places API is used for this part of the assignment.
+
+To complete this part of the assignment, a heat map was created displaying the humidity for all cities from Part I.
+
+The list of all cities is narrowed down to find my ideal weather condition. For example:
+
+  * A max temperature between 75-85 degrees
+  * Wind speed less than 10 mph
+  * Zero cloudiness
+
+  * Any rows that don't meet all three conditions was dropped.
+
+* Using the Google Places API, the first hotel for each city located within 5000 meters of the coordinates was located.
+
+* The hotels were plotted on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
+
+* A screenshot of the final heatmap is included in the VacationPy folder.
+
+#### Trends Observed in Part II
